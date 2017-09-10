@@ -8,16 +8,95 @@
 
 /* Begin PBXBuildFile section */
 		D466A3021F65560500EED3C3 /* RichEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D466A3001F65560500EED3C3 /* RichEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D466A3181F6556FF00EED3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A3171F6556FF00EED3C3 /* AppDelegate.swift */; };
+		D466A31A1F6556FF00EED3C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A3191F6556FF00EED3C3 /* ViewController.swift */; };
+		D466A31D1F6556FF00EED3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466A31B1F6556FF00EED3C3 /* Main.storyboard */; };
+		D466A31F1F6556FF00EED3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D466A31E1F6556FF00EED3C3 /* Assets.xcassets */; };
+		D466A3221F6556FF00EED3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466A3201F6556FF00EED3C3 /* LaunchScreen.storyboard */; };
+		D466A32D1F65570000EED3C3 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A32C1F65570000EED3C3 /* DemoUITests.swift */; };
+		D466A3351F65573000EED3C3 /* DjWebview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D466A30E1F6556DC00EED3C3 /* DjWebview.framework */; };
+		D466A3361F65573000EED3C3 /* DjWebview.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D466A30E1F6556DC00EED3C3 /* DjWebview.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D466A30D1F6556DC00EED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D40DC15F1EF41A2C00E34CA5;
+			remoteInfo = DjWebview;
+		};
+		D466A30F1F6556DC00EED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4AC51841EF41C2A00D5D4C3;
+			remoteInfo = Demo;
+		};
+		D466A3291F65570000EED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466A2F41F65560500EED3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D466A3141F6556FF00EED3C3;
+			remoteInfo = Demo;
+		};
+		D466A3371F65573000EED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D40DC15E1EF41A2C00E34CA5;
+			remoteInfo = DjWebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D466A3391F65573000EED3C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D466A3361F65573000EED3C3 /* DjWebview.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D466A2FD1F65560500EED3C3 /* RichEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D466A3001F65560500EED3C3 /* RichEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichEditor.h; sourceTree = "<group>"; };
 		D466A3011F65560500EED3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DjWebview.xcodeproj; path = ../DajiaZhongyi/Frameworks/DjWebview/DjWebview.xcodeproj; sourceTree = "<group>"; };
+		D466A3151F6556FF00EED3C3 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466A3171F6556FF00EED3C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D466A3191F6556FF00EED3C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D466A31C1F6556FF00EED3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D466A31E1F6556FF00EED3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D466A3211F6556FF00EED3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D466A3231F6556FF00EED3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466A3281F65570000EED3C3 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466A32C1F65570000EED3C3 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
+		D466A32E1F65570000EED3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D466A2F91F65560500EED3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466A3121F6556FF00EED3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A3351F65573000EED3C3 /* DjWebview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466A3251F65570000EED3C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,7 +109,10 @@
 		D466A2F31F65560500EED3C3 = {
 			isa = PBXGroup;
 			children = (
+				D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */,
 				D466A2FF1F65560500EED3C3 /* RichEditor */,
+				D466A3161F6556FF00EED3C3 /* Demo */,
+				D466A32B1F65570000EED3C3 /* DemoUITests */,
 				D466A2FE1F65560500EED3C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				D466A2FD1F65560500EED3C3 /* RichEditor.framework */,
+				D466A3151F6556FF00EED3C3 /* Demo.app */,
+				D466A3281F65570000EED3C3 /* DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +134,37 @@
 				D466A3011F65560500EED3C3 /* Info.plist */,
 			);
 			path = RichEditor;
+			sourceTree = "<group>";
+		};
+		D466A3091F6556DC00EED3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D466A30E1F6556DC00EED3C3 /* DjWebview.framework */,
+				D466A3101F6556DC00EED3C3 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D466A3161F6556FF00EED3C3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D466A3171F6556FF00EED3C3 /* AppDelegate.swift */,
+				D466A3191F6556FF00EED3C3 /* ViewController.swift */,
+				D466A31B1F6556FF00EED3C3 /* Main.storyboard */,
+				D466A31E1F6556FF00EED3C3 /* Assets.xcassets */,
+				D466A3201F6556FF00EED3C3 /* LaunchScreen.storyboard */,
+				D466A3231F6556FF00EED3C3 /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D466A32B1F65570000EED3C3 /* DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D466A32C1F65570000EED3C3 /* DemoUITests.swift */,
+				D466A32E1F65570000EED3C3 /* Info.plist */,
+			);
+			path = DemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,12 +199,50 @@
 			productReference = D466A2FD1F65560500EED3C3 /* RichEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D466A3141F6556FF00EED3C3 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466A32F1F65570000EED3C3 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				D466A3111F6556FF00EED3C3 /* Sources */,
+				D466A3121F6556FF00EED3C3 /* Frameworks */,
+				D466A3131F6556FF00EED3C3 /* Resources */,
+				D466A3391F65573000EED3C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D466A3381F65573000EED3C3 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = D466A3151F6556FF00EED3C3 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D466A3271F65570000EED3C3 /* DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466A3321F65570000EED3C3 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
+			buildPhases = (
+				D466A3241F65570000EED3C3 /* Sources */,
+				D466A3251F65570000EED3C3 /* Frameworks */,
+				D466A3261F65570000EED3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D466A32A1F65570000EED3C3 /* PBXTargetDependency */,
+			);
+			name = DemoUITests;
+			productName = DemoUITests;
+			productReference = D466A3281F65570000EED3C3 /* DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D466A2F41F65560500EED3C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "彭运筹";
 				TargetAttributes = {
@@ -97,6 +250,17 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = CAH3MX3J78;
 						ProvisioningStyle = Automatic;
+					};
+					D466A3141F6556FF00EED3C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NMVDYF2S2T;
+						ProvisioningStyle = Automatic;
+					};
+					D466A3271F65570000EED3C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CAH3MX3J78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D466A3141F6556FF00EED3C3;
 					};
 				};
 			};
@@ -106,19 +270,62 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D466A2F31F65560500EED3C3;
 			productRefGroup = D466A2FE1F65560500EED3C3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D466A3091F6556DC00EED3C3 /* Products */;
+					ProjectRef = D466A3081F6556DC00EED3C3 /* DjWebview.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D466A2FC1F65560500EED3C3 /* RichEditor */,
+				D466A3141F6556FF00EED3C3 /* Demo */,
+				D466A3271F65570000EED3C3 /* DemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D466A30E1F6556DC00EED3C3 /* DjWebview.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DjWebview.framework;
+			remoteRef = D466A30D1F6556DC00EED3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D466A3101F6556DC00EED3C3 /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = D466A30F1F6556DC00EED3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D466A2FB1F65560500EED3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466A3131F6556FF00EED3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A3221F6556FF00EED3C3 /* LaunchScreen.storyboard in Resources */,
+				D466A31F1F6556FF00EED3C3 /* Assets.xcassets in Resources */,
+				D466A31D1F6556FF00EED3C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466A3261F65570000EED3C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +342,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D466A3111F6556FF00EED3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A31A1F6556FF00EED3C3 /* ViewController.swift in Sources */,
+				D466A3181F6556FF00EED3C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466A3241F65570000EED3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A32D1F65570000EED3C3 /* DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D466A32A1F65570000EED3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D466A3141F6556FF00EED3C3 /* Demo */;
+			targetProxy = D466A3291F65570000EED3C3 /* PBXContainerItemProxy */;
+		};
+		D466A3381F65573000EED3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DjWebview;
+			targetProxy = D466A3371F65573000EED3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D466A31B1F6556FF00EED3C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466A31C1F6556FF00EED3C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D466A3201F6556FF00EED3C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466A3211F6556FF00EED3C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D466A3031F65560500EED3C3 /* Debug */ = {
@@ -254,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.RichEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -273,7 +529,63 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.RichEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		D466A3301F65570000EED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NMVDYF2S2T;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		D466A3311F65570000EED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NMVDYF2S2T;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "";
+			};
+			name = Release;
+		};
+		D466A3331F65570000EED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CAH3MX3J78;
+				INFOPLIST_FILE = DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Demo;
+			};
+			name = Debug;
+		};
+		D466A3341F65570000EED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CAH3MX3J78;
+				INFOPLIST_FILE = DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengyunchou.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Demo;
 			};
 			name = Release;
 		};
@@ -294,6 +606,22 @@
 			buildConfigurations = (
 				D466A3061F65560500EED3C3 /* Debug */,
 				D466A3071F65560500EED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D466A32F1F65570000EED3C3 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466A3301F65570000EED3C3 /* Debug */,
+				D466A3311F65570000EED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D466A3321F65570000EED3C3 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466A3331F65570000EED3C3 /* Debug */,
+				D466A3341F65570000EED3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
